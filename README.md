@@ -33,11 +33,13 @@ Additional specification of the project:
 
 ### Approach of the project
 
-Inspiration for this project was the problem for many people during Covid 19 outbreak - if I'm on quarantine, who is going to do my grocieres. I came up with idea of web application featuring posts about help that someone needs and help that the other person is willing to give. Users can create profiles filled with basic informations and create posts. 
+Inspiration for this project was the problem for many people during Covid 19 outbreak - if I'm on quarantine, who is going to do my grocieres. I came up with idea of web application featuring posts about help that someone needs and help that the other person is willing to give. Users can create profiles filled with basic informations and create posts.
+
+![](https://github.com/SuraKarolina/QA-Project-1/blob/main/Documentation/About.png)
 
 ### ER table
 
-Below is an entity relationship diagram (ERD) showing the tables used in a project and how they relate with each other.
+Below is an entity relationship diagram (ERD) showing the tables used in a project and how they relate with each other. The database was created on GCP MySQL server. 
 
 ![](https://github.com/SuraKarolina/images/blob/main/images/ER1.png)
 
@@ -47,6 +49,11 @@ The Minimum Viable Prodact is presented in MosCow prioritization diagram:
 
 <img width="420" alt="Moscow" src="https://github.com/SuraKarolina/images/blob/main/images/moscow1.png">
 
+User can create and update the profile. User can create, update and delete and browse posts (home page). 
+
+![](https://github.com/SuraKarolina/QA-Project-1/blob/main/Documentation/Create.png)
+![](https://github.com/SuraKarolina/QA-Project-1/blob/main/Documentation/Update.png)
+![](https://github.com/SuraKarolina/QA-Project-1/blob/main/Documentation/Read.png)
 
 ### Project tracking
 
@@ -63,7 +70,7 @@ For project tracking and management Trello board was used.
 
 Unit test results for application:
 
-<img width="500" alt="trello" src="https://github.com/SuraKarolina/images/blob/main/images/tests1.png">
+![](https://github.com/SuraKarolina/QA-Project-1/blob/main/Documentation/Test.png)
 
 
 
@@ -77,9 +84,15 @@ Unit test results for application:
 ***
 ## Risk Assessment
 
+![](https://github.com/SuraKarolina/QA-Project-1/blob/main/Documentation/Risk.png)
 
 ***
 ## Future Improvements
+
+- Improve overall test coverage.
+- Improve user interface.
+- Create a messages functionality to enable user's direct contact.
+
 
 ***
 
